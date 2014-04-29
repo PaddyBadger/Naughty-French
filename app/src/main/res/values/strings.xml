@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Naughty French</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="french_cards">Essential Cussing</string>
+
+    <string-array name="english">
+        <item>Shit!</item>
+        <item>Fuck! (literally means whore, but is used like F**k in French)</item>
+        <item>Fuck (Verb)</item>
+        <item>That pisses me off</item>
+        <item>That pisses me off</item>
+        <item>Son of a bitch</item>
+        <item>Bitch</item>
+        <item>I don\'t give a fuck</item>
+        <item>Ass (though used as idiot by many)</item>
+        <item>Shut-up! (or shut your mouth)</item>
+        <item>Fuck off! President Sarkozy\'s cuss of choice</item>
+        <item>This is bullshit</item>
+
+
+    </string-array>
+
+    <string-array name="french">
+        <item>Merde!</item>
+        <item>Putain!</item>
+        <item>Foutre</item>
+        <item>ça me fait chier</item>
+        <item>Chiant me fait chier</item>
+        <item>Fils de salope</item>
+        <item>Salope</item>
+        <item>Je m\'en fou</item>
+        <item>Con, conasse, connard</item>
+        <item>Ta gueule</item>
+        <item>Casse-toi!</item>
+        <item>C\'est des conneries</item>
+
+
+    </string-array>
+
+
+</resources>
