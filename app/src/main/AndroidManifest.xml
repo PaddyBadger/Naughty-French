@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.naughtyfrench.app" >
 
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
     <application
+        android:debuggable="false"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".FrenchSlidesActivity"></activity>
+        <activity android:name=".PurchaseActivity"></activity>
     </application>
 
 </manifest>

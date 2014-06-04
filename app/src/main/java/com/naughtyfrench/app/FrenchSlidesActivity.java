@@ -15,7 +15,7 @@ import android.view.MenuItem;
 
 public class FrenchSlidesActivity extends FragmentActivity {
 
-    private final int NUM_CARDS = 12;
+    private final int NUM_CARDS = 20;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
 
@@ -73,7 +73,13 @@ public class FrenchSlidesActivity extends FragmentActivity {
         }
 
         @Override
-        public Fragment getItem(int position) { return FrenchSlidesFragment.create(position);}
+        public Fragment getItem(int position) {
+            Intent i = getIntent();
+            int array = i.getIntExtra("array_number", 0);
+            FrenchSlidesFragment fragment = FrenchSlidesFragment.create(position);
+            fragment.get_array_number(array);
+            return fragment;
+        }
 
         @Override
         public int getCount() { return NUM_CARDS; }

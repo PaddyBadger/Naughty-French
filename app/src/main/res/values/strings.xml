@@ -5,9 +5,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_previous">Previous</string>
     <string name="action_next">Next</string>
-    <string name="french_cards">Essential Cussing</string>
 
-    <string-array name="english">
+    <string name="french_cards_one">Essential Cussing </string>
+    <string name="french_cards_two">In The Bedroom </string>
+
+    <string-array name="english_one">
         <item>Shit!</item>
         <item>Fuck! (literally means whore, but is used like F**k in French)</item>
         <item>Fuck (Verb)</item>
@@ -20,11 +22,17 @@
         <item>Shut-up! (or shut your mouth)</item>
         <item>Fuck off! President Sarkozy\'s cuss of choice</item>
         <item>This is bullshit</item>
-
-
+        <item>I can\'t stand you</item>
+        <item>You\'re full of shit</item>
+        <item>Motherfucker - masculine / motherfucker - feminine</item>
+        <item>You\'re a pain in the ass - masculine</item>
+        <item>You\'re a pain in the ass - feminine</item>
+        <item>He / she looks like an asshole</item>
+        <item>Stop saying shit about me</item>
+        <item>Go to hell</item>
     </string-array>
 
-    <string-array name="french">
+    <string-array name="french_one">
         <item>Merde!</item>
         <item>Putain!</item>
         <item>Foutre</item>
@@ -37,9 +45,59 @@
         <item>Ta gueule</item>
         <item>Casse-toi!</item>
         <item>C\'est des conneries</item>
-
-
+        <item>Je peux pas te supporter</item>
+        <item>Tu es complètement faux cul</item>
+        <item>Enculé / Enculée de ta mère</item>
+        <item>Tu es chiant</item>
+        <item>Tu es chiante</item>
+        <item>Il / Elle a une tête de con</item>
+        <item>Arrête de raconter des saloperies sur mon compte</item>
+        <item>Va te faire voir</item>
     </string-array>
 
+    <string-array name="english_two">
+        <item>Tonight I want to get my rocks off - literally means \"to take my foot\"</item>
+        <item>Let\'s go screw</item>
+        <item>You make me want to screw like rabbits</item>
+        <item>Tonight I want to sleep with you</item>
+        <item>Lets do a threesome</item>
+        <item>Want to try anal sex?</item>
+        <item>Suck my dick</item>
+        <item>A big dong</item>
+        <item>A limp prick</item>
+        <item>I love tits</item>
+        <item>Can I squeeze your boobs?</item>
+        <item>Nice airbags</item>
+        <item>You have great hooters</item>
+        <item>Can I undo your fly?</item>
+        <item>Foreplay</item>
+        <item>I want it faster</item>
+        <item>Can I sit on your face?</item>
+        <item>How about a blow job?</item>
+        <item>I really like that!</item>
+        <item>I\'m coming!</item>
+    </string-array>
 
+    <string-array name="french_two">
+        <item>Ce soir, je veux prendre mon pied</item>
+        <item>Allons troncher</item>
+        <item>Tu me donnes envie de niquer comme des lapins</item>
+        <item>Ce soir, je veux coucher avec toi</item>
+        <item>Faisons le ménage a trois</item>
+        <item>Veux-tu essayer le sexe anal?</item>
+        <item>Suce mon bite</item>
+        <item>Une grosse chibre</item>
+        <item>Une dard molle</item>
+        <item>J\'adore les nénés</item>
+        <item>Je peux te tripoter les lolos</item>
+        <item>Jolis air-bags!</item>
+        <item>Tu as des nibards magnifiques</item>
+        <item>Je peux d\'ouvrir ta braguette?</item>
+        <item>Les préliminaires</item>
+        <item>Je le veux plus vite</item>
+        <item>Puis-je poser mon cul sur ta gueule?</item>
+        <item>ça te dit une pompier</item>
+        <item>J\'aime beaucoup ça!</item>
+        <item>Je jouis!</item>
+    </string-array>
 </resources>

@@ -29,6 +29,20 @@ public class FrenchSlidesFragment extends Fragment implements View.OnClickListen
             R.drawable.french1, R.drawable.french2, R.drawable.french3, R.drawable.french4, R.drawable.french5
     };
     private int randomCartoon = rand.nextInt(drawables.length);
+    private Integer[] title_array = {
+            R.string.french_cards_one, R.string.french_cards_two
+    };
+    private Integer[] english_arrays = {
+            R.array.english_one, R.array.english_two
+    };
+    private Integer[] french_arrays = {
+            R.array.french_one, R.array.french_two
+    };
+    int array_number;
+
+    public void get_array_number(int number) {
+        array_number = number;
+    }
 
     public static FrenchSlidesFragment create(int pageNumber) {
         FrenchSlidesFragment fragment = new FrenchSlidesFragment();
@@ -58,17 +72,20 @@ public class FrenchSlidesFragment extends Fragment implements View.OnClickListen
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        int cardNumber = mPageNumber+1;
+
         ViewGroup rootView = (ViewGroup) inflater.inflate(R.layout.fragment_french_slides_page, container, false);
 
         TextView titleTextView = (TextView) rootView.findViewById(R.id.title);
-        titleTextView.setText("Essential Cussing " + mPageNumber+1);
+        String title = getString(title_array[array_number]);
+        titleTextView.setText(title + " " + cardNumber);
 
         TextView englishTextView = (TextView) rootView.findViewById(R.id.english);
-        String[] englishStrings = getResources().getStringArray(R.array.english);
+        String[] englishStrings = getResources().getStringArray(english_arrays[array_number]);
         englishTextView.setText(englishStrings[mPageNumber]);
 
         TextView textView = (TextView) rootView.findViewById(R.id.french);
-        frenchStrings = getResources().getStringArray(R.array.french);
+        frenchStrings = getResources().getStringArray(french_arrays[array_number]);
         textView.setText(frenchStrings[mPageNumber]);
 
         ImageButton speakButton = (ImageButton) rootView.findViewById(R.id.speak);
